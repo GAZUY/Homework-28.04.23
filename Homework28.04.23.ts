@@ -182,7 +182,7 @@ if ( the_first_answer === the_first_question && second_answer === the_second_que
         next_year = entered_year;
       }
     } else if (entered_mounth == 2) {
-      if (entered_year % 400 == 0 || (entered_year % 4 == 0 && entered_year % 100 != 0)) {
+      if ((entered_year % 400 == 0) || (entered_year % 4 == 0) && (entered_year % 100 != 0)) {
         max_day = 29;
         if (entered_day < max_day) {
           next_day = entered_day + 1;

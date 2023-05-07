@@ -176,7 +176,7 @@ if (entered_mounth == 4 || entered_mounth == 6 || entered_mounth == 9 || entered
     }
 }
 else if (entered_mounth == 2) {
-    if (entered_year % 400 == 0 || (entered_year % 4 == 0 && entered_year % 100 != 0)) {
+    if ((entered_year % 400 == 0) || (entered_year % 4 == 0) && (entered_year % 100 != 0)) {
         max_day = 29;
         if (entered_day < max_day) {
             next_day = entered_day + 1;
