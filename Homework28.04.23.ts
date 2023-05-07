@@ -1,4 +1,4 @@
-/*
+
 let howManyYears = parseInt(prompt("Сколько вам лет") as string)
 if (0 < howManyYears && howManyYears < 12) {
   alert("ребёнок")
@@ -159,7 +159,7 @@ if ( the_first_answer === the_first_question && second_answer === the_second_que
 }else {
   alert ("Проверьте введение данных как в вариантах. Или вы провалили экзамен")
 }
-*/
+
 
 
 
